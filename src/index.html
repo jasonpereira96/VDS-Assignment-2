@@ -1,15 +1,37 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>My homepage</title>
-  <meta charset="UTF-8">
-  <meta http-equiv="cache-control" content="no-cache"/>
-  <meta http-equiv="pragma" content="no-cache"/>
-  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-  <meta name="viewport"
+    <title>My homepage</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="cache-control" content="no-cache" />
+    <meta http-equiv="pragma" content="no-cache" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="viewport"
         content="width=device-width,user-scalable=0,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
 </head>
-  <h1 class="page-title">HOMEPAGE</h1>
-  <div id="viz"></div>
+<div id="app">
+    <div class="navbar">
+        <div class="button">Gun deaths by gender</div>
+        <div class="button"></div>
+        <div class="button"></div>
+    </div>
+
+    {{ message }}
+
+    <div id="main">
+        <div class="col">
+            <div id="viz"></div>
+            <div id="legend"></div>
+        </div>
+        <div class="col">
+            <h2> Illinois </h2>
+            <div id="viz2" v-html="pieChart">
+            </div>
+        </div>
+    </div>
+</div>
+
 </body>
+
 </html>

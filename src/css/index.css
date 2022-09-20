@@ -1,0 +1,9 @@
+body {
+}
+
+#main {
+    display: flex;
+}
+.col {
+    flex: 1;
+}

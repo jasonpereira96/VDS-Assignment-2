@@ -1,0 +1,62 @@
+[
+    {
+        "city": "Chicago",
+        "deaths": 400,
+        "lat": 41.87811312121412,
+        "long": -87.629799121445
+    },
+    {
+        "city": "Los Angeles",
+        "deaths": 297,
+        "lat": 34.0522354745174,
+        "long": -118.24368454113
+    },
+    {
+        "city": "Baltimore",
+        "deaths": 199,
+        "lat": 39.290386,
+        "long": -76.612190
+    },
+    {
+        "city": "Houston",
+        "deaths": 147,
+        "lat": 29.749907,
+        "long": -95.358421
+    },
+    {
+        "city": "New Orleans",
+        "deaths": 145,
+        "lat": 29.951065,
+        "long": -90.071533
+    },
+    {
+        "city": "Philadelphia",
+        "deaths": 130,
+        "lat": 39.952583,
+        "long": -75.165222
+    },
+    {
+        "city": "Columbus",
+        "deaths": 113,
+        "lat": 39.983334,
+        "long": -82.983330
+    },
+    {
+        "city": "Kansas City",
+        "deaths": 107,
+        "lat": 39.099724,
+        "long": -94.578331
+    },
+    {
+        "city": "Washington",
+        "deaths": 103,
+        "lat": 38.900497,
+        "long": -77.007507
+    },
+    {
+        "city": "Indianapolis",
+        "deaths": 103,
+        "lat": 39.791000,
+        "long":  -86.148003
+    }
+]
